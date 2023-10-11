@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 html,
 body {
   padding: 0;
@@ -129,3 +132,7 @@ nav {
 	}
 }
 
+.highlight{
+	color: aquamarine;
+	font-style: italic;
+}

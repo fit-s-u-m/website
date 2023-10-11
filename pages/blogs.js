@@ -1,9 +1,9 @@
 import Icon from "../components/title";
 import Nav from "../components/homeNav";
 import Link from "next/link";
-import { Indie_Flower } from "next/font/google";
 import Image from "next/image";
-const pF = Indie_Flower({ weight: "400", subsets: ["latin"] });
+import { Indie_Flower } from "next/font/google";
+const pF = Indie_Flower({ weight: "400", subsets: ["latin"],variable:'--font-blog' });
 
 export default function Blog() {
   return (
