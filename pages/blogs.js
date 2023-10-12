@@ -14,11 +14,11 @@ export default function Blog() {
       <div id="blog_b">
         <h1 className="head">Blog</h1>
 
-        <div className={`${pF.className} blogText`}>
+        <div className= "mx-10 text-2xl">
 
-          <div id="maths">
-            <h1 className="blog_h"> Maths</h1>
-							<ol type="1">
+          <div className="my-14">
+            <h1 className="blog_h "> Maths</h1>
+							<ol className="list-decimal m-5 ">
 								<li>
 									<h2>Trigonometry</h2>
 									<Link href="/maths/trig">
@@ -31,9 +31,9 @@ export default function Blog() {
 							</ol>
 						</div>
 
-          <div id="physics">
+          <div className="my-14">
             <h1 className="blog_h"> Physics</h1>
-							<ol type="1">
+							<ol className="list-decimal m-5">
 								<li>
 									<h2></h2>
 								</li>
@@ -43,9 +43,9 @@ export default function Blog() {
 							</ol>
 						</div>
 
-          <div id="programming">
+          <div className="my-14">
             <h1 className="blog_h"> Programming</h1>
-							<ol type="1">
+							<ol className="list-decimal m-5">
 								<li>
 									<h2>functional programming</h2>
 								</li>
@@ -55,9 +55,9 @@ export default function Blog() {
 							</ol>
 						</div>
 
-          <div id="history">
+          <div className="my-14">
             <h1 className="blog_h"> History</h1>
-							<ol type="1">
+							<ol className="list-decimal mx-5">
 								<li>
 									<h2></h2>
 								</li>

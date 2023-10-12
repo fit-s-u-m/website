@@ -7,19 +7,19 @@ export default function Nav() {
       <nav>
         <Image className="logo" src="/img/brand.png" width={50} height={50} alt="brand logo" />
 				<ul className="nav">
-					<li>
+					<li className="hover:invert text:lg">
         <Link href="/">Home</Link>
 					</li>
 
-					<li>
+					<li className=" hover:invert text-lg">
         <Link href="/blogs"> Blogs</Link>
 					</li>
 
-					<li>
+					<li className=" hover:invert text-lg">
         <Link href="/about"> About </Link>
 					</li>
 
-					<li>
+					<li className="hover:invert text-lg">
         <Link href="/contacts"> Contacts</Link>
 					</li>
 
